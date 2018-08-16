@@ -1,0 +1,122 @@
+#About {
+    float: right;
+    background-color: white;
+    width: 5%;
+    color: #777777;
+}
+
+body {
+    background-color: #dddddd;
+    width: 100%; 
+    height: 100%;
+    border-style: dashed;
+}
+
+.bigBlue {
+    font-size: 20px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 5px
+}
+
+#Contact {
+    float: right;
+    background-color: white;
+    width: 5%;
+    color: #777777;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 10px;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    border-style: dotted;   
+}
+
+.footer {
+    height: 50px;
+    background-color: #666666;
+    text-align: center;
+    bottom: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-top-style: dotted;
+}
+
+.header {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom-style: 1px solid;
+    padding: 10px
+}
+
+img {
+    float: left;
+}
+
+input[type=submit]:hoover {
+    background-color: #4aaaa5
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text], select, textarea {
+    width: 920px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#Kt {
+    color: black;
+    background: #4aaaa5;
+    width: 300px;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    height: 40px;
+    color: white;
+    border-style: groove; 
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+}
+
+#Portfolio {
+    float: right;
+    background-color: white;
+    width: 5%;
+    color: #777777;
+}
+
+.wrapper {
+    height: 10%;
+    margin-bottom: 30px;
+    border-style: double;
+}
+
+
+
+.text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding-left: 176px;
+    padding-right: 20px;
+    z-index: 20;
+}
+
+.right {
+    text-align: right;
+    top: 100px;
+    right: 0;
+    position: absolute
+   
+}
