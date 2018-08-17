@@ -9,7 +9,7 @@ body {
     background-color: #dddddd;
     width: 100%; 
     height: 100%;
-    border-style: dashed;
+    border-style: solid gray 2px
 }
 
 .bigBlue {
@@ -32,7 +32,7 @@ body {
     position: relative;
     width: 960px;
     margin: 0 auto;
-    border-style: dotted;   
+    border-style: solid gray 2px;   
 }
 
 .footer {
@@ -41,14 +41,15 @@ body {
     text-align: center;
     bottom: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-top-style: dotted;
+    border-top: 5px solid cadetblue;
 }
 
 .header {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom-style: 1px solid;
-    padding: 10px
+    padding: 10px;
+    border-bottom: solid gray 2px
 }
 
 img {
@@ -106,11 +107,12 @@ input[type=text], select, textarea {
 
 .text-block {
     position: absolute;
-    background-color: black;
+    background-color: #4aaaa5;
     color: white;
-    padding-left: 176px;
-    padding-right: 20px;
-    z-index: 20;
+    padding-left: 80px;
+    padding-right: 80px;
+    z-index: 10;
+    
 }
 
 .right {
@@ -119,4 +121,10 @@ input[type=text], select, textarea {
     right: 0;
     position: absolute
    
+}
+
+#centered {
+    position: relatice;
+    text-align: center;
+  
 }
