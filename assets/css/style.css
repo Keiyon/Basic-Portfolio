@@ -124,7 +124,13 @@ input[type=text], select, textarea {
 }
 
 #centered {
-    position: relatice;
+    position: relative;
     text-align: center;
   
+}
+
+.pictures {
+    position: absolute;
+    bottom: 20px;
+   float: 200px 
 }
